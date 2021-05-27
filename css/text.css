@@ -1,0 +1,54 @@
+#textb{
+	color:white;
+	font-size:x-small;
+	font-family:標楷體;
+	font-style:italic;
+	background-color:#A3D1D1;
+	text-align : center;
+	height:80px; 
+	line-height:70px;
+}
+#textg{
+	color:white;
+	font-size:x-small;
+	font-family:標楷體;
+	font-style:italic;
+	background-color:#CEFFCE;
+	text-align : center;
+	width:80px;  
+	line-height:400px;
+	float:left;
+}
+#text{}
+#texto{
+	color:white;
+	font-size:x-small;
+	font-family:標楷體;
+	font-style:italic;
+	background-color:#FFBB77;
+	text-align : center;
+	
+	height:400px; 
+	line-height:400px;
+}
+#textp{
+	color:white;
+	font-size:x-small;
+	font-family:標楷體;
+	font-style:italic;
+	background-color:#C1A3C8;
+	text-align : center;
+	width:80px;  
+	line-height:400px;
+	float : right;
+}
+#textr{
+	color:white;
+	font-size:x-small;
+	font-family:標楷體;
+	font-style:italic;
+	background-color:#C48888;
+	text-align : center;
+	height:80px; 
+	line-height:70px
+}
