@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="big5">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+ 
+<body>
+
+<!-- 相片輪播元件 -->
+<div id="photoCarousel" class="carousel slide vertical" data-ride="carousel">
+  <!-- Indicators 瀏覽控制 --> 
+  <ol class="carousel-indicators" style="margin-top:50px">
+    <li data-target="#photoCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#photoCarousel" data-slide-to="1"></li>
+    <li data-target="#photoCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- 建立相片清單 -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="c61f7d48f3dd3ddcae128132418be360.png">
+    </div>
+    <div class="item">
+      <img src="DCH8ThdV0AIWkQt.jpg">
+    </div>
+    <div class="item">
+      <img src="ce2cc2511903a619a519d801b61e1d9d.png">
+    </div>
+  </div>
+  <!-- 上一張/下一張控制 --> 
+  <a class="left carousel-control" href="#photoCarousel" data-slide="prev">
+  <span class=“glyphicon glyphicon-chevron-left”></span></a>
+  <a class="right carousel-control" href="#photoCarousel" data-slide="next">
+  <span class=“glyphicon glyphicon-chevron-right”></span></a>
+</div>
+
+<p class="h2" style="font-family: 'Itim', cursive; ">408410362 陳巧諭</p>
+<!-- 巡覽列, navbar-default 表示白底黑字樣式 -->
+<nav class="navbar navbar-default">
+  <!-- 選單表頭區塊 -->
+  <div class="navbar-header">
+    <span href="#" class="navbar-brand" style= "font-family: 'Itim', cursive;" >homework</span>
+    <!-- 按鈕 -->
+    <button type="button" class="navbar-toggle"
+            data-toggle="collapse" data-target="#mynav">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+  </div>
+
+<!-- 元件 -->
+
+<nav class="navbar navbar-default">
+  <div id="mynav" class="navbar-collapse collapse">
+    <ul class="navbar-nav nav">
+      <li><a href="408410362/408410362.html"><!-- 選單項目 1 --><span class="glyphicon glyphicon-leaf";   >homework 1</a></li>
+      <li><a href="homwork2/履歷.html" ><!-- 選單項目 2 --><span class="glyphicon glyphicon-fire" >homework 2 </a></li>
+      <li><a href="css/CSS-global.html" ><!-- 選單項目 3 --><span class="glyphicon glyphicon-thumbs-up">homework 3</a></li>
+      <li><a href="0513.html" ><!-- 選單項目 4 --><span class="glyphicon glyphicon-home">homework 7</a></li>
+      <li><a href="js.html" ><!-- 選單項目 5 --><span class="glyphicon glyphicon-flash">homework 8</a></li>
+    </ul>
+  </div>
+</nav>
+
+ </body>
+</html>
